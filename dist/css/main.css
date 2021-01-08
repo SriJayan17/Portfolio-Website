@@ -724,11 +724,33 @@ ul {
   #header-home h1 {
     font-size: 2rem;
   }
+  #home-c .process-icon {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    padding: 2rem;
+  }
+  #home-c .process-icon:hover {
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
+  }
 }
 
 @media (max-height: 420px) {
   #header-home #header-content {
     padding-top: 2rem;
+  }
+  #home-c .process-icon {
+    height: 60px;
+    width: 60px;
+    line-height: 60px;
+    padding: 2rem;
+  }
+  #home-c .process-icon:hover {
+    height: 70px;
+    width: 70px;
+    line-height: 70px;
   }
 }
 /*# sourceMappingURL=main.css.map */

@@ -166,12 +166,47 @@
             }
         }
     }
+
+    #home{
+        &-c{
+            .process{
+                &-icon{
+                    height: 60px;
+                    width: 60px;
+                    line-height: 60px;
+                    padding: 2rem;
+                    &:hover{
+                        height: 70px;
+                        width: 70px;
+                        line-height:70px ;
+                    }
+                }
+            }
+        }
+    }
 }
 
 @media(max-height:420px){
     #header-home{
         #header-content{
             padding-top: 2rem;
+        }
+    }
+    #home{
+        &-c{
+            .process{
+                &-icon{
+                    height: 60px;
+                    width: 60px;
+                    line-height: 60px;
+                    padding: 2rem;
+                    &:hover{
+                        height: 70px;
+                        width: 70px;
+                        line-height:70px ;
+                    }
+                }
+            }
         }
     }
 }
